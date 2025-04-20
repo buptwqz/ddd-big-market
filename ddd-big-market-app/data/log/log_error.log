@@ -54,7 +54,7 @@ java.sql.SQLNonTransientConnectionException: Could not create connection to data
 	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
 	at cn.wqz.infrastructure.persistent.repository.StrategyRepository$$EnhancerBySpringCGLIB$$1f35678e.queryStrategyAwardList(<generated>)
-	at cn.wqz.domain.strategy.service.armory.StrategyArmory.assembleLotteryStrategy(StrategyArmory.java:29)
+	at cn.wqz.domain.strategy.service.armory.StrategyArmoryDispatch.assembleLotteryStrategy(StrategyArmory.java:29)
 	at cn.wqz.test.ApiTest.test_strategyArmory(ApiTest.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
