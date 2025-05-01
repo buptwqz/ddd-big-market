@@ -15,7 +15,7 @@ public interface IStrategyArmory {
      */
     boolean assembleLotteryStrategy(Long strategyId);
 
-
+    Integer getRandomAwardId(Long strategyId);
 
 }
 
